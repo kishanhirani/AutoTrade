@@ -5,6 +5,7 @@ const orderRouter = require('./orders.js')
 
 
 router.get('/test', async (req, res) => {
+  console.log("test")
   return res.status(200).json({
     success: true,
     body: "hello"
